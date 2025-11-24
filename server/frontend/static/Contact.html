@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+
+    <style>
+        /* Page Layout */
+        body {
+            background: #f6f9fb;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navbar */
+        .navbar {
+            background: #00b8c5;
+            padding: 15px 40px;
+        }
+
+        .navbar-brand {
+            font-size: 28px;
+            font-weight: 700;
+            color: #fff !important;
+        }
+
+        .nav-link {
+            color: #e3f6f8 !important;
+            margin-left: 25px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .nav-link.active {
+            font-weight: 800;
+            color: #ffffff !important;
+            text-decoration: underline;
+        }
+
+        /* Contact Box */
+        .contact-container {
+            width: 85%;
+            background: #fff;
+            margin: 50px auto;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-header-img {
+            width: 100%;
+            border-radius: 15px;
+        }
+
+        .contact-flex {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+
+        .contact-icon {
+            width: 120px;
+        }
+
+        .contact-info p {
+            margin: 4px 0;
+            font-size: 17px;
+        }
+
+        .contact-info a {
+            color: #0097b7;
+            text-decoration: none;
+        }
+
+        .divider {
+            width: 2px;
+            background: #ccc;
+            margin: 0 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="/">Dealerships</a>
+
+        <div class="navbar-nav ml-auto">
+            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link" href="/about">About Us</a>
+            <a class="nav-link active" href="/contact">Contact Us</a>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <div class="contact-container">
+
+        <!-- <img src="https://cdn.pixabay.com/photo/2016/05/18/10/52/buick-1400243_1280.jpg" class="contact-header-img" alt="Contact Header"> -->
+
+        <div class="contact-flex">
+            <!-- Icon side -->
+            <div>
+                <!-- <img src="https://cdn-icons-png.flaticon.com/512/2922/2922529.png"  -->
+                <img width="400" src="https://cdn.pixabay.com/photo/2016/05/18/10/52/buick-1400243_1280.jpg" class="contact-header-img" alt="Contact Header">
+            </div>
+
+            <!-- Divider -->
+            <div class="divider"></div>
+
+            <!-- Info side -->
+            <div class="contact-info">
+                <h3>Contact Our Team</h3>
+
+                <p><strong>Customer Support:</strong></p>
+                <p>Email: <a href="mailto:support@dealershiphub.com">support@dealershiphub.com</a></p>
+                <p>Phone: +91 98765 43210</p>
+                <br>
+
+                <p><strong>Sales & Inquiries:</strong></p>
+                <p>Email: <a href="mailto:sales@dealershiphub.com">sales@dealershiphub.com</a></p>
+
+                <br>
+                <p><strong>Corporate Office:</strong></p>
+                <p>Dealership Hub Pvt. Ltd.</p>
+                <p>32/4 Tech Park, Bengaluru, India</p>
+
+                <br>
+                <p><strong>Follow Us:</strong></p>
+                <p><a href="#">Instagram</a> | <a href="#">Twitter</a> | <a href="#">LinkedIn</a></p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
